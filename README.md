@@ -6,13 +6,15 @@ Extend EverQuest social buttons beyond the traditional five-line limit by assign
 
 ## Distribution status
 
-Public binary distribution is pending licensing review. This repository contains user documentation and issue reporting; it does not currently offer a binary download. MacroQuest is licensed under GPLv2; see [upstream license](https://github.com/macroquest/macroquest/blob/master/LICENSE.md).
+This is the public distribution and issue-reporting repository. The v0.4.0 release is being prepared; check [GitHub Releases](https://github.com/ouijacat/MQ2ExtendedSocials-Releases/releases) for availability.
+
+Copyright (C) 2026 ouijacat. MQ2ExtendedSocials is licensed under GPL-2.0-only and provided for educational purposes, without additional restrictions on GPL rights. MacroQuest is licensed under GPLv2; see its [pinned upstream license](https://github.com/macroquest/macroquest/blob/bc1930741e03370d806e623ec60070735df26d76/LICENSE.md).
 
 ## Compatibility and download
 
 Designed for the tested custom RoF2 EQEmu client and compatible MacroQuest build. Other clients, servers and MacroQuest versions are not verified. Use only where permitted by server rules.
 
-Once published, download the ZIP from [GitHub Releases](https://github.com/ouijacat/MQ2ExtendedSocials-Releases/releases). Public distribution is pending licensing review; no downloadable package is currently published here. The package contains the original tested DLL and this README. No compilation is needed.
+Once published, download the ZIP from [GitHub Releases](https://github.com/ouijacat/MQ2ExtendedSocials-Releases/releases). The planned release includes the original tested DLL, documentation, licensing notices, a source archive and SHA-256 checksums. Clean source buildability and complete corresponding-source coverage have not been independently established. No compilation is needed.
 
 ## Installation and upgrades
 
@@ -166,7 +168,7 @@ Debug messages are prefixed [ExtendedSocials]. A dispatched message confirms com
 
 ## Validation and limitations
 
-User-reported v0.4 testing passed all 132 checks: Alpha 1 spell support (42), Alpha 2 items and duplicates (50), Alpha 3 final validation (40). Final validation used the same Alpha 2 DLL without recompiling and included 20-entry mixed rotations, shared cooldowns, duplicate chain casting, multiple item copies, final charges, death/zoning/logout, configuration restoration and at least one hour of gameplay. One Alpha 2 compilation failure caused by an upstream inventory traversal overload was corrected before testing. No runtime defects were reported.
+User-reported v0.4 testing passed all 140 checks: Alpha 1 spell support (42), Alpha 2 items and duplicates (50), Alpha 3 final validation (40), and stable installation checks (8). Final validation used the same Alpha 2 DLL without recompiling and included 20-entry mixed rotations, shared cooldowns, duplicate chain casting, multiple item copies, final charges, death/zoning/logout, configuration restoration and at least one hour of gameplay. One Alpha 2 compilation failure caused by an upstream inventory traversal overload was corrected before testing. No runtime defects were reported.
 
-The validated private stable package preserves the tested Alpha 2 DLL byte-for-byte; its startup message intentionally identifies Alpha 2. Existing v0.3.0 and earlier configurations are supported. Back up before upgrading or downgrading: older versions cannot safely read socials containing spell or item types and may discard newer settings when saving. Notification preferences and execution results are not persisted. Activation confirmation is not proof of server-side completion. Other servers and client versions are not verified.
+The validated stable package preserves the tested Alpha 2 DLL byte-for-byte; its startup message intentionally identifies Alpha 2. Existing v0.3.0 and earlier configurations are supported. Back up before upgrading or downgrading: older versions cannot safely read socials containing spell or item types and may discard newer settings when saving. Notification preferences and execution results are not persisted. Activation confirmation is not proof of server-side completion. Other servers and client versions are not verified.
 
