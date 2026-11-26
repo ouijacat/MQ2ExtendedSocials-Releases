@@ -6,7 +6,7 @@ Extend EverQuest social buttons beyond the traditional five-line limit by assign
 
 ## Distribution status
 
-This is the public distribution and issue-reporting repository. The v0.4.0 release is being prepared; check [GitHub Releases](https://github.com/ouijacat/MQ2ExtendedSocials-Releases/releases) for availability.
+This is the public distribution and issue-reporting repository. The v0.4.0 Stable release is published. Download its verified binary, corresponding source package and checksums from [GitHub Releases](https://github.com/ouijacat/MQ2ExtendedSocials-Releases/releases/latest).
 
 Copyright (C) 2026 ouijacat. MQ2ExtendedSocials is licensed under GPL-2.0-only and provided for educational purposes, without additional restrictions on GPL rights. MacroQuest is licensed under GPLv2; see its [pinned upstream license](https://github.com/macroquest/macroquest/blob/bc1930741e03370d806e623ec60070735df26d76/LICENSE.md).
 
@@ -14,7 +14,7 @@ Copyright (C) 2026 ouijacat. MQ2ExtendedSocials is licensed under GPL-2.0-only a
 
 Designed for the tested custom RoF2 EQEmu client and compatible MacroQuest build. Other clients, servers and MacroQuest versions are not verified. Use only where permitted by server rules.
 
-Once published, download the ZIP from [GitHub Releases](https://github.com/ouijacat/MQ2ExtendedSocials-Releases/releases). The planned release includes the original tested DLL, documentation, licensing notices, a source archive and SHA-256 checksums. Clean source buildability and complete corresponding-source coverage have not been independently established. No compilation is needed.
+Download the ZIP from the [latest GitHub Release](https://github.com/ouijacat/MQ2ExtendedSocials-Releases/releases/latest). The planned release includes the original tested DLL, documentation, licensing notices, a source archive and SHA-256 checksums. Clean source buildability and complete corresponding-source coverage have not been independently established. No compilation is needed.
 
 ## Installation and upgrades
 
